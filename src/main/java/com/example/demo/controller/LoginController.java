@@ -9,7 +9,7 @@ public class LoginController {
 	
 	@GetMapping("/")
 	public String home() {
-		return "Welcome to Jenkins Project!!!";
+		return "Welcome to Jenkins webhook Project!!!";
 	}
 
 }
